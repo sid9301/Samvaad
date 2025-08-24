@@ -141,6 +141,3 @@ If you copy-paste this into a GitHub repo **README.md**, it will render exactly 
 
 ---
 
-If you want, I can also **create a version with clickable anchor links in the Table of Contents** and **inline images/icons** for a fully professional look, ready to push.  
-
-Do you want me to do that next?
