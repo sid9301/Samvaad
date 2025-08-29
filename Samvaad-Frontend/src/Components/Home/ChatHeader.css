@@ -1,0 +1,19 @@
+.chat-header {
+  background: #5978c0;
+  color: #eb3f3f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(224, 111, 111);
+  border-radius: 5px;
+  
+
+}
+
+.user-status {
+  font-size: 0.9rem;
+  background: #20bf6b;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+}

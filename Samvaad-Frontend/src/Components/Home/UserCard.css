@@ -1,0 +1,10 @@
+/* Main container for the user card */
+.user-card {
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    padding: 5px; /* Adds space inside the card */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    transition: background-color 0.2s ease-in-out; /* Smooth transition for hover effect */
+    border-bottom: 1px solid #cf4545; /* Separator line between cards */
+}
+
