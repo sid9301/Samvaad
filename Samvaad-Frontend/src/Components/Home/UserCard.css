@@ -1,10 +1,65 @@
-/* Main container for the user card */
-.user-card {
+
+.user-info {
+    margin-left: 10px; /* Adds space between the image and text */
     display: flex;
-    align-items: center; /* Vertically centers the content */
-    padding: 5px; /* Adds space inside the card */
-    cursor: pointer; /* Changes cursor to a pointer on hover */
-    transition: background-color 0.2s ease-in-out; /* Smooth transition for hover effect */
-    border-bottom: 1px solid #cf4545; /* Separator line between cards */
+    flex-direction: row;
+} 
+
+.user-card {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #db9f9f;
+  margin-bottom: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  transition: background 0.2s;
+  cursor: pointer;
 }
 
+.user-card:hover {
+  background: #7b9fc2;
+}
+
+.user-profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #e0e0e0;
+  margin-right: 12px;
+}
+
+.user-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 2px;
+  color: #222;
+}
+
+.user-message {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-status {
+  font-size: 0.85rem;
+  color: #e96107;
+  margin: 0;
+  align-self: flex-end;
+}
